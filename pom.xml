@@ -12,6 +12,7 @@
         <fastjson.version>1.2.44</fastjson.version>
         <joda.time.version>2.9.9</joda.time.version>
         <commons.beanutils.version>1.9.3</commons.beanutils.version>
+        <jodd.version>4.1.5</jodd.version>
     </properties>
 
     <dependencies>
@@ -43,6 +44,38 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>23.5-jre</version>
+        </dependency>
+
+        <!-- jodd start -->
+        <dependency>
+            <groupId>org.jodd</groupId>
+            <artifactId>jodd-core</artifactId>
+            <version>${jodd.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jodd</groupId>
+            <artifactId>jodd-bean</artifactId>
+            <version>${jodd.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jodd</groupId>
+            <artifactId>jodd-http</artifactId>
+            <version>${jodd.version}</version>
+        </dependency>
+        <!-- jodd end -->
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>5.0.2.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>1.4.0</version>
         </dependency>
     </dependencies>
 
