@@ -32,4 +32,8 @@ public class Cat {
 
     private void ruff() {
     }
+
+    public String getName() {
+        return name;
+    }
 }
